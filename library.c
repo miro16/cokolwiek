@@ -1,7 +1,13 @@
 #include "library.h"
 
 #include <stdio.h>
+int Policz(int a, int b)
+{
+    return a + b;
+}
 
-void hello(void) {
-    printf("Hello, World!\n");
+int main(){
+    std: : << "W pierwszym branchu; 2+3=" Policz(2,3) << std: :endl;
+    return 0;
+
 }
